@@ -1,0 +1,23 @@
+* {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h4, p {
+    color: #dd0031;
+}
+
+button {
+    margin: 0.5rem;
+    background-color: #1976d2;
+    color: #ffffff;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
+    font-size: 1rem;
+    font-weight: bold;
+}
