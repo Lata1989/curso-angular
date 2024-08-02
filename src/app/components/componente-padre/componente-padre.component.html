@@ -1,15 +1,18 @@
-<h1>Hola mundo en Angular!</h1>
-<p>componente-padre works!</p>
+<!-- <h1>Hola mundo en Angular!</h1>
+<p>componente-padre works!</p> -->
 
 <!-- <app-componente-hijo [recibeHijo]="mensajePadre"></app-componente-hijo> -->
-<app-componente-hijo 
-    (mensajeDesdeHijo)="recibirMensaje($event)"
-    (incrementarDesdeHijo)="incrementar()"
-    (decrementarDesdeHijo)="decrementar()"
-
-    >
+<!-- <app-componente-hijo (mensajeDesdeHijo)="recibirMensaje($event)" (incrementarDesdeHijo)="incrementar()"
+    (decrementarDesdeHijo)="decrementar()">
 </app-componente-hijo>
 
 <p>El mensaje recibido desde el hijo es: {{mensajeRecibido}}</p>
 
-<p>Contador: {{valorContador}}</p>
+<p>Contador: {{valorContador}}</p> -->
+
+<h4>Servicios</h4>
+
+<p appEstiloHermanos>{{nombreHermano}}</p>
+<button type="button" (click)="saludar()">Saludar</button>
+
+<button type="button" (click)="preguntar()">Preguntar por hijo</button>
