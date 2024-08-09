@@ -9,6 +9,7 @@ import { ComponenteContadorComponent } from './components/componente-contador/co
 import { ComponenteTioComponent } from './components/componente-tio/componente-tio.component';
 import { FormsModule } from '@angular/forms';
 import { EstiloHermanosDirective } from './directives/directiva-hermanos/estilo-hermanos.directive';
+import { MiPipePersonalizadoPipe } from './pipes/mi-pipe-personalizado/mi-pipe-personalizado.pipe';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { EstiloHermanosDirective } from './directives/directiva-hermanos/estilo-
     ComponenteHijoComponent,
     ComponenteContadorComponent,
     ComponenteTioComponent,
-    EstiloHermanosDirective
+    EstiloHermanosDirective,
+    MiPipePersonalizadoPipe
   ],
   imports: [
     BrowserModule,

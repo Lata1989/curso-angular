@@ -14,6 +14,7 @@ export class ComponentePadreComponent implements OnInit {
   mensajeRecibido: string = '';
   valorContador: number = 0;
   nombreHermano? : string = '';
+  fecha?: Date = new Date();
 
   constructor(private _servicioFamiliar: ServicioFamiliarService) {
 

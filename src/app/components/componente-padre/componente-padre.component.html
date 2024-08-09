@@ -12,7 +12,10 @@
 
 <h4>Servicios</h4>
 
-<p appEstiloHermanos>{{nombreHermano}}</p>
+<!-- <p appEstiloHermanos>{{nombreHermano}}</p> -->
+<h2>Fecha y hora: {{fecha | date: 'dd/MM/YYYY'}}</h2>
+<p>{{nombreHermano | miPipePersonalizado}}</p>
 <button type="button" (click)="saludar()">Saludar</button>
 
 <button type="button" (click)="preguntar()">Preguntar por hijo</button>
+
